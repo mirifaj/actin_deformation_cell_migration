@@ -70,3 +70,15 @@ If you use this code in scientific work, please cite the associated publication 
 ---
 
 Feel free to open an issue if you have questions or suggestions.
+
+## Citation
+
+If you use this code in scientific work, please cite the associated publication or acknowledge:
+
+**Michael Riedl**
+
+Related publication:
+
+**Global coordination of protrusive forces in migrating immune cells**  
+Patricia Reis-Rodrigues, Nikola Canigova, Mario J. Avellaneda, Florian Gaertner, Kari Vaahtomeri, Michael Riedl, Jack Merrin, Robert Hauschild, Yoshinori Fukui, Alba Juanes Garcia, Michael Sixt  
+DOI: [https://doi.org/10.1101/2024.07.26.605242](https://doi.org/10.1101/2024.07.26.605242)
