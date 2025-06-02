@@ -150,9 +150,9 @@ for folder in np.arange(len(folder_datasets)):
             img_interp_coll = resample_image_to_custom_grid(file_coll, new_grid_x_values, new_grid_y_values)
             img_interp_mask = resample_image_to_custom_grid(file_mask, new_grid_x_values, new_grid_y_values)
 
-            img_interp_cell_r = np.fliplr(np.fliplr(np.rot90(img_interp_cell, 4)))
-            img_interp_coll_r = np.fliplr(np.fliplr(np.rot90(img_interp_coll, 4)))
-            img_interp_mask_r = np.fliplr(np.fliplr(np.rot90(img_interp_mask, 4)))
+            img_interp_cell_r = np.flipud(img_interp_cell)
+            img_interp_coll_r = np.flipud(img_interp_coll)
+            img_interp_mask_r = np.flipud(img_interp_mask)
 
             sample_field_data = {
                 'cell': img_interp_cell_r,
